@@ -7,16 +7,17 @@ namespace Composer\Autoload;
 class ComposerStaticInit5d13d5ac6d2e8d9a540f89f8f5eea43b
 {
     public static $prefixLengthsPsr4 = array (
-        'Z' => 
+        'M' => 
         array (
-            'Zc\\Math\\' => 8,
+            'Math\\' => 5,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Zc\\Math\\' => 
+        'Math\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/Math',
+            1 => __DIR__ . '/..' . '/zhangcheng/math/src/Math',
         ),
     );
 

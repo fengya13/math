@@ -5,6 +5,6 @@ class Math
 {
     public function sum($a,$b){
 
-        return $a+$b;
+        return 'result:'.($a+$b);
     }
 }

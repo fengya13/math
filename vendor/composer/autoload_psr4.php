@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Zc\\Math\\' => array($baseDir . '/src'),
+    'Math\\' => array($baseDir . '/src/Math', $vendorDir . '/zhangcheng/math/src/Math'),
 );
