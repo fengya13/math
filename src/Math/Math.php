@@ -1,10 +1,10 @@
 <?php
 
-namespace Math;
+namespace Zhangcheng;
 class Math
 {
     public function sum($a,$b){
 
-        return '结果为:'.($a+$b);
+        return '结果为1:'.($a+$b);
     }
 }
