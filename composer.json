@@ -8,8 +8,5 @@
             "Math\\": "src/Math/"
         }
     },
-    "minimum-stability": "dev",
-    "require": {
-        "zhangcheng/math": "dev-master"
-    }
+    "minimum-stability": "dev"
 }
